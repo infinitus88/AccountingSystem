@@ -27,20 +27,6 @@ namespace AccountingSystem.Server.RestAPI
             _mapper = mapper;
         }
 
-        [HttpPost("Role")]
-        public async Task CreateRole([FromBody] string roleName)
-        {
-            await _query.CreateRole(roleName);
-        }
-
-        [HttpPost("role/{id}")]
-        public void GrantRole(int id, [FromBody] string[] roleNames)
-        {
-            var user = _query.Get(id);
-
-            _query.GrantRole(id, roleNames);
-        }
-
         [HttpGet]
         [QueryableResult]
         public IQueryable<UserModel> Get()

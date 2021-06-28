@@ -18,7 +18,7 @@
     <ProjectReference Include="..\AccountingSystem.Api.Models\AccountingSystem.Api.Models.csproj" />
     <ProjectReference Include="..\AccountingSystem.Data.Access\AccountingSystem.Data.Access.csproj" />
     <ProjectReference Include="..\AccountingSystem.Data.Model\AccountingSystem.Data.Model.csproj" />
-    <ProjectReference Include="..\Expenses.Queries\AccountingSystem.Queries.csproj" />
+    <ProjectReference Include="..\AccountingSystem.Queries\AccountingSystem.Queries.csproj" />
   </ItemGroup>
 
 </Project>
