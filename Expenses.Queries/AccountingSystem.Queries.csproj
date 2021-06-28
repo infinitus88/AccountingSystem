@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AccountingSystem.Api.Common\AccountingSystem.Api.Common.csproj" />
+    <ProjectReference Include="..\AccountingSystem.Api.Models\AccountingSystem.Api.Models.csproj" />
+    <ProjectReference Include="..\AccountingSystem.Data.Access\AccountingSystem.Data.Access.csproj" />
+    <ProjectReference Include="..\AccountingSystem.Data.Model\AccountingSystem.Data.Model.csproj" />
+    <ProjectReference Include="..\AccountingSystem.Security\AccountingSystem.Security.csproj" />
+  </ItemGroup>
+
+</Project>
